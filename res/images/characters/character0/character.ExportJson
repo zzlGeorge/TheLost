@@ -1,0 +1,698 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.4.0.1",
+      "version": 1.401,
+      "name": "character",
+      "bone_data": [
+        {
+          "name": "body",
+          "parent": "",
+          "dI": 0,
+          "x": -2.3809549808502197,
+          "y": -4.7714228630065918,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": -4.0829181671142578E-06,
+          "arrow_y": 7.1474551077699289E-07,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "default/body.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": -0.1558013,
+                  "y": -3.40863943,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "body",
+          "dI": 0,
+          "x": 2.1256074905395508,
+          "y": 14.242864608764648,
+          "z": 6,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.60875273,
+          "kY": 1.60875273,
+          "arrow_x": 32.940425872802734,
+          "arrow_y": -1.244208306161454E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "default/head.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 23.0892868,
+                  "y": 6.10660267,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.60875273,
+                  "kY": -1.60875213
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right_hand",
+          "parent": "body",
+          "dI": 0,
+          "x": 1.1732251644134522,
+          "y": 10.492864608764648,
+          "z": 5,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.10714877,
+          "kY": -1.10714877,
+          "arrow_x": 15.838807106018066,
+          "arrow_y": 3.3286814868915826E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "default/right_hand.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 11.143074,
+                  "y": 1.22983742,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.10714877,
+                  "kY": 1.10714912
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left_hand",
+          "parent": "body",
+          "dI": 0,
+          "x": 0.51846408843994141,
+          "y": 11.326200485229492,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.76400781,
+          "kY": -1.76400781,
+          "arrow_x": 19.530048370361328,
+          "arrow_y": 3.1395857149618678E-06,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "default/left_hand.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 10.4830914,
+                  "y": 4.14186668,
+                  "cX": 0.9999999,
+                  "cY": 0.9999999,
+                  "kX": 4.51917744,
+                  "kY": 1.764008
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right_foot",
+          "parent": "body",
+          "dI": 0,
+          "x": 5.101799488067627,
+          "y": -10.638090133666992,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 7.746292,
+          "kY": -7.746292,
+          "arrow_x": 15.506491661071777,
+          "arrow_y": 1.3151443454262335E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "default/right_foot.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 10.2810831,
+                  "y": 1.35626984,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": -1.46310651,
+                  "kY": 1.46310639
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left_foot",
+          "parent": "body",
+          "dI": 0,
+          "x": -0.6124875545501709,
+          "y": -10.816661834716797,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.54377592,
+          "kY": -1.54377592,
+          "arrow_x": 15.42228889465332,
+          "arrow_y": 9.0482245695966412E-08,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "default/left_foot.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 8.098765,
+                  "y": 2.42491364,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.54377592,
+                  "kY": 1.54377544
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "character",
+      "mov_data": [
+        {
+          "name": "run",
+          "dr": 61,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "head",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.209439516,
+                  "kY": -0.209439516,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.209439516,
+                  "kY": -0.209439516,
+                  "fi": 45,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "right_hand",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.401425719,
+                  "kY": -0.401425719,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.5061455,
+                  "kY": 0.5061455,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.401425719,
+                  "kY": -0.401425719,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.27409041,
+                  "kY": -1.27409041,
+                  "fi": 45,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.401425719,
+                  "kY": -0.401425719,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "left_hand",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.279252678,
+                  "kY": 0.279252678,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.558505356,
+                  "kY": -0.558505356,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.279252678,
+                  "kY": 0.2792527,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.16937065,
+                  "kY": 1.16937065,
+                  "fi": 45,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.279252678,
+                  "kY": 0.279252678,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "body",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.122173049,
+                  "kY": -0.122173049,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.122173049,
+                  "kY": -0.122173049,
+                  "fi": 45,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "right_foot",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.104719758,
+                  "kY": -0.104719758,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.8552113,
+                  "kY": -0.8552113,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.104719758,
+                  "kY": -0.104719758,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.715585,
+                  "kY": 0.715585,
+                  "fi": 45,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.104719758,
+                  "kY": -0.104719758,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "left_foot",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0174532924,
+                  "kY": -0.0174532924,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.6981317,
+                  "kY": 0.6981317,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0174532924,
+                  "kY": -0.0174533129,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.802851439,
+                  "kY": -0.802851439,
+                  "fi": 45,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0174532924,
+                  "kY": -0.0174532924,
+                  "fi": 60,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "default/head",
+      "width": 94.0,
+      "height": 62.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "default/left_hand",
+      "width": 26.0,
+      "height": 46.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "default/body",
+      "width": 37.0,
+      "height": 41.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "default/left_foot",
+      "width": 15.0,
+      "height": 22.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "default/right_foot",
+      "width": 15.0,
+      "height": 16.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "default/right_hand",
+      "width": 18.0,
+      "height": 23.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "character0.plist"
+  ],
+  "config_png_path": [
+    "character0.png"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "project_type": "javascript",
+  "debugMode": 0,
+  "showFPS": false,
+  "frameRate": 60,
+  "noCache": false,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d",
+    "extensions",
+    "cocostudio"
+  ],
+  "jsList": [
+    "src/resource.js",
+
+    "src/values/Constants.js",
+
+    "src/values/ServerApi.js",
+
+    "src/Game.js",
+    "src/logic/CollisionLogic.js",
+    "src/logic/UsefulPropManager.js",
+    "src/logic/ObstacleManager.js",
+    "src/animation/SpriteActions.js",
+    "src/sound/Sound.js",
+
+    "src/http/HttpRequest.js",
+    "src/http/Http.js",
+    "src/http/DataHandler.js",
+
+    "src/gui/MyLoaderScene.js",
+    "src/gui/ModalDialogueBox.js",
+    "src/gui/gameUi/GameOverUI.js",
+    "src/gui/gameUi/GameSceneUI.js",
+    "src/gui/ConfirmUI.js",
+    "src/gui/AlertUi.js",
+
+    "src/sprites/Character.js",
+    "src/sprites/Pedal.js",
+    "src/sprites/Bramble.js",
+    "src/sprites/ThirdViews.js",
+    "src/sprites/TransitionPedal.js",
+    "src/sprites/LandModeSprite.js",
+    "src/sprites/ItemObj.js",
+    "src/sprites/Obstacle.js",
+
+    "src/layers/GameBackground.js",
+    "src/layers/modes_views/LandMode.js",
+    "src/layers/modes_views/LowAltitudeMode.js",
+    "src/layers/modes_views/LakeMode.js",
+    "src/layers/CoreView.js",
+
+    "src/scenes/BeginScene.js",
+    "src/scenes/GameScene.js",
+    "src/scenes/rgAndLgScene/LoginAndRegisterScene.js",
+    "src/scenes/menuScene/MainMenuScene.js",
+    "src/scenes/menuScene/dialogs/SceneSkinSelectorDialog.js",
+    "src/scenes/menuScene/dialogs/AchievementDialog.js",
+    "src/scenes/menuScene/dialogs/CharacterSelectorDialog.js",
+    "src/scenes/menuScene/dialogs/DayRewardDialog.js",
+    "src/scenes/menuScene/dialogs/MissionDialog.js",
+    "src/scenes/menuScene/dialogs/MyPropsDialog.js",
+    "src/scenes/menuScene/dialogs/RankDialog.js",
+    "src/scenes/menuScene/dialogs/SettingDialog.js",
+    "src/scenes/menuScene/dialogs/ShopDialog.js",
+
+    "src/scenes/rewardScene/RewardConstants.js",
+    "src/scenes/rewardScene/RewardEffect.js",
+    "src/scenes/rewardScene/RewardSceneProps.js",
+    "src/scenes/rewardScene/HeroAnimation.js",
+    "src/scenes/rewardScene/RewardScene.js",
+    "src/scenes/rewardScene/elements/RewardBackground.js",
+    "src/scenes/rewardScene/elements/Hero.js",
+    "src/scenes/rewardScene/elements/Item.js",
+    "src/scenes/rewardScene/logic/FoodManager.js",
+    "src/scenes/rewardScene/ui/SoundButton.js",
+    "src/scenes/rewardScene/ui/RewardSceneUI.js"
+  ]
+}
