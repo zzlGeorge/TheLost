@@ -24,7 +24,7 @@ The game of parkour bases on COCOS engine,The Lost.(基于cocos引擎的跑酷�
 
 
 ## 作品简单架构
-
+![game structure](doc/img/架构.png)
 ## 技术概况:
 游戏主要架构为C/S架构。
 客户端，主要运用了cocos引擎的cocos2d-js版本的一些相关API。主要分为图形渲染系统、声音系统、跨平台发布、定时器、内部数据存储接口（localStorage）等特性。
@@ -32,7 +32,19 @@ The game of parkour bases on COCOS engine,The Lost.(基于cocos引擎的跑酷�
 
 ## 模式切换机制
 游戏的核心玩法是角色在跑酷过程中会随机切换到三种模式，吃到奖励关道具会进入奖励关场景进行游戏。那么，这些模式又如何切换呢？如下图：
+![mode switch](doc/img/模式切换机制.png)
 
 ## 游戏效果图展示
-
-
+* 开始界面
+![mode switch](doc/img/图片1.png)
+* 主菜单界面
+![mode switch](doc/img/图片2.png)
+* 普通陆地场景
+![mode switch](doc/img/图片3.png)
+![mode switch](doc/img/图片6.png)
+* 低空场景
+![mode switch](doc/img/图片7.png)
+* 湖中场景
+![mode switch](doc/img/图片4.png)
+* 奖励关
+![mode switch](doc/img/图片5.png)
