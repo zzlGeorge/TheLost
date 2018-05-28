@@ -25,26 +25,33 @@ The game of parkour bases on COCOS engine,The Lost.(基于cocos引擎的跑酷�
 
 ## 作品简单架构
 ![game structure](doc/img/架构.png)
+
 ## 技术概况:
 游戏主要架构为C/S架构。
 客户端，主要运用了cocos引擎的cocos2d-js版本的一些相关API。主要分为图形渲染系统、声音系统、跨平台发布、定时器、内部数据存储接口（localStorage）等特性。
-服务端，主要使用Tomcat服务器，提供一些http的接口给游戏提供相关数据支持。服务器主要框架是Spring、SpringMVC、MyBatis。玩家登陆使用了shiro安全框架进行验证用户。
+服务端（[TheLost-Server](https://github.com/zzlGeorge/TheLost-Server)），主要使用Tomcat服务器，提供一些http的接口给游戏提供相关数据支持。服务器主要框架是Spring、SpringMVC、MyBatis。玩家登陆使用了shiro安全框架进行验证用户。
 
 ## 模式切换机制
 游戏的核心玩法是角色在跑酷过程中会随机切换到三种模式，吃到奖励关道具会进入奖励关场景进行游戏。那么，这些模式又如何切换呢？如下图：
 ![mode switch](doc/img/模式切换机制.png)
 
 ## 游戏效果图展示
-* 开始界面
-![mode switch](doc/img/图片1.png)
-* 主菜单界面
-![mode switch](doc/img/图片2.png)
-* 普通陆地场景
-![mode switch](doc/img/图片3.png)
-![mode switch](doc/img/图片6.png)
-* 低空场景
-![mode switch](doc/img/图片7.png)
-* 湖中场景
-![mode switch](doc/img/图片4.png)
-* 奖励关
-![mode switch](doc/img/图片5.png)
+### 开始界面
+![pic1](doc/img/图片1.png)
+此界面为游戏最开始场景，包含登陆、注册、离线（游客）登陆、关于的功能按钮。  
+### 主菜单界面
+![pic2](doc/img/图片2.png)
+此页面为登陆后的一个玩家（张三GG）的游戏主菜单展示。本界面包含了游戏系统的一些功能。  
+### 普通陆地场景
+![pic3](doc/img/图片3.png)
+![pic6](doc/img/图片6.png)
+此场景为游戏的场景中的陆地上模式，此为陆地过渡场景，陆地上有食物、障碍物等物品。  
+### 低空场景
+![pic7](doc/img/图片7.png)
+此为游戏中的低空场景模式，类似于flappyBird那种玩法，躲过荆棘即可。  
+### 湖中场景
+![pic4](doc/img/图片4.png)
+此场景同样为游戏中的一个模式，游戏中的角色通过上下移动躲过水里的障碍物，获取更多分数。  
+### 奖励关
+![pic5](doc/img/图片5.png)
+此关为奖励关的场景，吃到奖励道具之后会触发奖励关，在奖励关，可以吃很多的水果，而且没有任何障碍物。
